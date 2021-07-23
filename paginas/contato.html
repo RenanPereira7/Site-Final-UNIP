@@ -1,0 +1,261 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Poluição Over</title>
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/estilo.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    
+    <body>
+        <div class="inicial">
+            <a href="../index.html"><img src="../imagens/capa.jpg" class="capa"></a>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu">
+            <a class="navbar-brand" href="../index.html">Projeto Poluição Over</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="textoNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/poluicao.html">Poluição</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/prevencao.html">Prevenção</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/fiscalizacao.html">Fiscalização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/estatisticas.html">Estatísticas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/contato.html">Contato  <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                </ul>
+                <nav class="navbar navbar-dark bg-dark" id="pesquisar">
+                    <form class="form-inline" id="formpesquisa">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" id="cxpesquisar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" id="botaopesquisar" type="submit">Buscar</button>
+                    </form>
+                </nav>
+            </div>
+        </nav>
+        
+        <main>
+            <div class="caminho">
+                <p><a href="../index.html">Home</a> > <a href="../paginas/contato.html">Contato</a></p>
+            </div><br>
+            
+            <h1>Contato</h1>
+            <p>Por favor, para entrar em contato conosco preencha o formulário abaixo e clique em "Enviar":</p><br>
+            
+            
+            <form name="contato" id="form_contato" action="salvar.jsp" method="post">
+                <fieldset id="bordaform">
+                    <legend class="txtformulario"><p>Formulário para contato</p></legend>
+                    
+                    <div id="conteudo">
+                        <div class="nome">
+                            <label for="Nome">Nome completo<span>*</span></label>
+                            <input id="Nome" name="Nome" type="text" required />
+                        </div>
+                        <br>
+                        
+                        <div class="email">
+                            <label for="Email" id="labelemail">E-mail</label>
+                            <input id="Email" name="Email" type="email" />
+                        </div>
+                        <br>
+                        
+                        <div class="telefone">
+                            <label for="Telefone">Telefone<span>*</span></label>
+                            <input id="Telefone" name="Telefone" type="tel" required maxlength="11" />
+                        </div>
+                        <br>
+                        
+                        <div class="sexo">
+                            <label id="genero">Gênero</label>
+                            <input type="radio" id="alt1" name="alternativa" value="A"/>
+                            <label for="alt1">Feminino</label>
+                            <input type="radio" id="alt2" name="alternativa" value="B"/>
+                            <label for="alt1">Masculino</label>
+                            <input type="radio" id="alt3" name="alternativa" value="C"/>
+                            <label for="alt1">Prefiro não informar</label>
+                        </div>
+                        <br>
+                        
+                        <div class="estado">
+                            <label for="Estado">Estado<span>*</span></label>
+                            <select id="Estado" name="Estado" required>
+								<option value="" selected="selected">Selecione o estado...</option>
+								<option value="AC">AC - Acre</option>
+								<option value="AL">AL - Alagoas</option>
+								<option value="AM">AM - Amazonas</option>
+								<option value="AP">AP - Amapá</option>
+								<option value="BA">BA - Bahia</option>
+								<option value="CE">CE - Ceará</option>
+								<option value="DF">DF - Distrito Federal</option>
+								<option value="ES">ES - Espírito Santo</option>
+								<option value="GO">GO - Goiás</option>
+								<option value="MA">MA - Maranhão</option>
+								<option value="MG">MG - Minas Gerais</option>
+								<option value="MS">MS - Mato Grosso do Sul</option>
+								<option value="MT">MT - Mato Grosso</option>
+								<option value="PA">PA - Pará</option>
+								<option value="PB">PB - Paraíba</option>
+								<option value="PE">PE - Pernambuco</option>
+								<option value="PI">PI - Piauí</option>
+								<option value="PR">PR - Paraná</option>
+								<option value="RJ">RJ - Rio de Janeiro</option>
+								<option value="RN">RN - Rio Grande do Norte</option>
+								<option value="RO">RO - Rondônia</option>
+								<option value="RR">RR - Roraima</option>
+								<option value="RS">RS - Rio Grande do Sul</option>
+								<option value="SC">SC - Santa Catarina</option>
+								<option value="SE">SE - Sergipe</option>
+								<option value="SP">SP - São Paulo</option>
+								<option value="TO">TO - Tocantins</option>
+								<option value="FB">Fora do Brasil</option>
+                            </select>
+                        </div>
+				
+                <br>
+                <div class="cidade">
+				    <label for="Cidade">Cidade<span>*</span></label>
+				    <input id="Cidade" name="Cidade" type="text" required />
+				</div>
+
+                        <br>					
+                        
+                    <div class="assunto">
+                        <label for="Assunto">Assunto<span>*</span></label>
+                        <select id="Assunto" name="OpenCmsAssunto" required>
+                            <option selected="selected" value="">Selecione o assunto...</option>
+				            <option value="Apoio ao projeto">Apoio ao projeto</option>
+				            <option value="Denúncia">Denúncia</option>
+                            <option value="Doação governos">Doação governos</option>
+                            <option value="Doação pessoa física">Doação pessoa física</option>
+                            <option value="Doação pessoas jurídica">Doação pessoa jurídica</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="Outro">Outro</option>
+                        </select>				
+                        </div>
+            
+                        <br>
+                        
+                    <div class="mensagem">
+                        <label for="Mensagem">Mensagem<span>*</span></label><br>
+                        <textarea id="Mensagem" name="Mensagem" required ></textarea>
+				    </div>		
+                        <br>	
+                        <div class='button'><p><button class='btn' type='button' onclick='validaFaleConosco()'>Enviar</button></p></div>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small blue-grey lighten-5" id="footer">
+            
+            <div style="background-color: rgba(0, 125, 60, 1);" id="barrasuperior">
+                <div class="container">
+
+                    <!-- Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0"></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5">
+
+                <!-- Grid row -->
+                <div class="row mt-3 dark-grey-text">
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Projeto poluição over</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p style="text-align: center">
+                            <a class="dark-grey-text" href="../index.html"><img id="imgfooter" src="../imagens/logo.png"></a>
+                        </p>
+                    </div>
+      
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                        <!-- Content -->
+                        <h6 class="text-uppercase font-weight-bold">O projeto</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>O projeto nasceu com a intenção de ajudar a  cidade de Araraquara e região no combate contra a poluição. O principal objetivo é oferecer um <em>overview</em> da situação da região, além de promover ONGs que auxiliam nesse processo. </p>
+                    </div>
+
+      
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Páginas</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="../index.html">Home</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="../paginas/poluicao.html">Poluição</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="../paginas/prevencao.html">Prevenção</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="../paginas/fiscalizacao.html">Fiscalização</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="../paginas/estatisticas.html">Estatísticas</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="../paginas/contato.html">Contato</a>
+                        </p>
+                    </div>
+      
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Desenvolvido por:</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fas fa-home mr-3"></i><br>                      
+                                 Marcos Bianchi<br>
+                                 Jhenifer Santos<br>
+                                 Renan Conceição<br>
+                                 Leonardo Silva<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.js"></script>
+    
+    </body>
+</html>

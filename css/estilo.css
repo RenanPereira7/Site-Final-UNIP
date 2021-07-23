@@ -1,0 +1,294 @@
+/* Página */
+body{
+    background-color: rgba(137,182,130,0.8); 
+    padding: 1%;
+    margin: auto;
+}
+
+.inicial{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: rgba(237, 238, 239, 1);
+    border: 2%;
+    border-radius: 10px;
+    margin: 1%;
+    margin-top: 0px;
+}
+
+.inicial img{
+    text-align: center;
+    width: 70%;
+    height: auto;
+}
+
+main{
+    background-color: rgba(239, 240, 241, 1);
+    padding: 2% 2.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-radius: 10px;
+}
+
+.caminho a {
+    font-family:  'Noto Sans JP', sans-serif;
+    font-size: 95%;
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+	text-decoration: none
+	}
+
+a:hover {
+	text-decoration: underline; 
+	color: rgba(1,105,35,1);
+	}
+
+a:active {
+	text-decoration: none
+	}
+
+h1{font-family:  'Noto Sans JP', sans-serif;
+    font-size: 200%;
+    
+}
+
+h2 {font-family:  'Noto Sans JP', sans-serif;
+    font-size: 140%;
+}
+
+h3 {font-family:  'Noto Sans JP', sans-serif;
+    font-size: 120%;
+}
+
+p{
+  color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    margin: 5px;
+    text-align: justify;
+}
+
+.lista{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+}
+
+.imagenscorpohorizontal img{
+    height: auto;
+    width: 25%;  
+    padding: 0.6%;
+    background-color: rgba(0, 147, 68, 0.7);
+    border-radius: 8px;
+    margin: 1%;
+}
+
+.imagenscorpovertical img{
+    height: 40%;
+    width: auto;  
+    padding: 0.6%;
+    background-color: rgba(0, 147, 68, 0.7);
+    border-radius: 8px;
+    margin: 1%;
+}
+
+#video{
+    text-align: center;
+    height: 60%;
+    width: 53.5%;
+    padding: 0.6%;
+    background-color: rgba(0, 147, 68, 0.7);
+    border-radius: 8px;
+    margin: 1%
+}
+
+a{
+    color: darkblue;
+    font-size: 70%;
+}
+
+
+
+/* Formulário de contato */
+#form_contatoo {
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    
+}
+
+#form_contato {
+    color: black;
+    border:2px solid grey;
+    border-top: 2px solid grey;
+
+}
+
+#Nome {
+  left:95px;
+  top:23px;
+  width:380px;
+     color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 1%;
+}
+
+#Email {
+    left:95px;
+    top:23px;
+    width:215px;
+     color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 1.8%;
+}
+
+
+#Telefone {
+    left:95px;
+  top:23px;
+  width:215px;
+     color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    size: 10px
+}
+
+#genero{
+    padding-right: 2%
+}
+
+.sexo{
+    padding-right: 1%;
+}
+
+#Estado {
+    left:95px;
+    top:23px;
+    width:200px;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 1.6%;
+}
+
+#Cidade{
+  left:95px;
+  top:23px;
+  width:200px;
+     color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 1.6%;
+}
+
+#Assunto{
+  left:95px;
+  top:23px;
+  width:200px;
+     color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 0.8%;
+}
+
+#Mensagem {
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    width: 60%;
+    height: 40%;
+
+}
+
+#conteudo{
+    padding: 2%;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    border-radius: 8px;
+    padding: 0.3%;
+    background-color: rgba(11, 105, 5, 1);
+}
+
+/* Estilização do menu */
+
+#textoNavbar ul li{
+    font-size: 130%;
+    margin-left: 3%;
+}
+
+
+#formpesquisa {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+}
+
+#menu {
+    border-radius: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#botaopesquisar {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 7px;
+    background-color: rgba(237, 238, 239, 1);
+    color: black;
+    font-size: 90%;
+}
+
+#cxpesquisar {
+    background-color: rgba(237, 238, 239, 1);
+    font-size: 90%;
+}
+
+/*Footer*/
+
+#footer{
+    background-color: rgba(237, 238, 239, 1);
+    border-radius: 10px;
+}
+
+#barrasuperior {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#imgfooter {
+    height: 40%;
+}
+
+/*Carousel*/
+
+#carouselExampleIndicators {
+    max-width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
